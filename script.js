@@ -62,3 +62,22 @@ switch (num) {
 >>>>>>> 760e5e54ac9b7c59784737910f0a7ad3424ac1f1
 
 }     
+
+let num = 50;
+//while (num < 55) {
+  //console.log(num);
+  //num++;  
+//}
+
+do {
+  console.log(num);
+  num++;
+}
+while (num < 55)
+
+for (let i = 1; i < 8; i++) {
+  if (i == 6) {
+    continue
+  }
+  console.log(i)
+}
